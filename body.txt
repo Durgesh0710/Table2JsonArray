@@ -1,0 +1,44 @@
+{
+	"name": "Apply",
+	"description": "This endpoint is used for applying for the Developer role at ElpisDsign.",
+	"authentication": [],
+	"routes": {
+		"\/apply.php": {
+			"methods": ["POST"],
+			"args": {
+				"name": {
+					"required": true,
+					"description": "Durgesh Sharma"
+				},
+				"email": {
+					"required": true,
+					"description": "durgesh199507@hotmail.com"
+				},
+				"phone": {
+					"required": true,
+					"description": "+919599915873"
+				},
+				"current_location": {
+					"required": true,
+					"description": "palwal,Haryana"
+				},
+				"github": {
+					"required": true,
+					"description": "https://github.com/Durgesh0710"
+				},
+				"blog": {
+					"required": true,
+					"description": "https://www.quora.com/profile/Durgesh-Sharma-32,https://stackoverflow.com/users/5002796/dj-gabru-garry"
+				},
+				"resume": {
+					"required": true,
+					"description": "https://drive.google.com/file/d/1WWJoEkEbt95ukJHs-dID9L1xwTrQEqQS/view?usp=sharing"
+				},
+				"intro": {
+					"required": true,
+					"description": "I have presented a review paper on Intrusion detection System.I Like to play mobile games,solving sudoku and workout in gym"
+				}
+			}
+		}
+	}
+}

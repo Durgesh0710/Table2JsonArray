@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Notices",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "table2json",
+    "html",
+    "table",
+    "convert",
+    "json",
+    "csv",
+    "heroku"
+  ],
+  "dependencies": {
+    "cheerio": "*",
+    "q": "*",
+    "request": "*",
+    "express": "*",
+    "body-parser": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "author": "Durgesh Sharma",
+  "license": "ISC"
+}
